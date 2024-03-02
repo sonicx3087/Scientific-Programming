@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # Reading both columns from the CSV file
 
 #nasa_df = pd.read_csv('graph.csv', sep=',', header=None, skiprows=2, encoding='latin1')
-nasa_df = pd.read_csv('graph.csv', sep=',', header=None, skiprows=2)
+nasa_df = pd.read_csv('Nasa_Temperature.csv', sep=',', header=None, skiprows=2)
 
 # Displaying the data
 #print(nasa_df)
